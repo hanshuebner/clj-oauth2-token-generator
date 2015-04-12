@@ -6,7 +6,7 @@ main application.
 
 This illustrates the usage for the
 [clj-oauth2 library](https://clojars.org/stuarth/clj-oauth2) as
-described in
+described in the
 [Blog post by Eric Koslow](https://coderwall.com/p/y9w4-g/google-oauth2-in-clojure).
 
 ## Options
