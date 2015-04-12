@@ -1,0 +1,13 @@
+{:oauth-params {;; Callback URL for Google
+                :redirect-uri "https://example.com/oauth2callback"
+                ;; Client ID and secret (use https://console.developers.google.com/project to create project + client)
+                :client-id "XXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com"
+                :client-secret "XXX-XXXXXX-XXXXXXXXXXXXX"
+                ;; Scope for the generated tokens, adapt as required
+                :scope ["https://www.googleapis.com/auth/userinfo.email" "https://picasaweb.google.com/data/"]}
+
+ ;; URL to redirect to when the token has been generated
+ :success-url "http://example.com/"
+
+ ;; Directory to store the generated tokens in, files have email addresses as their name
+ :token-directory "/tmp"}

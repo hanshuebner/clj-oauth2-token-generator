@@ -1,32 +1,17 @@
 # clojure-oauth-server
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar clojure-oauth-server-0.1.0-standalone.jar [args]
+This is a server which can be used to generate OAuth2 tokens for
+Google services.  Tokens are stored in EDN files to be used by the
+main application.
 
 ## Options
 
-FIXME: listing of options this app accepts.
+Put a config.edn file into the resources directory.  Use
+config-sample.edn as example.
 
-## Examples
+## Usage
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ lein run
 
 ## License
 
