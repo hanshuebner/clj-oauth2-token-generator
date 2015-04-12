@@ -10,4 +10,7 @@
  :success-url "http://example.com/"
 
  ;; Directory to store the generated tokens in, files have email addresses as their name
- :token-directory "/tmp"}
+ :token-directory "/tmp"
+
+ ;; Port number to listen on for http requests
+ :port 9492}
