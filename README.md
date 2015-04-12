@@ -1,4 +1,4 @@
-# clojure-oauth-server
+# clj-oauth2-token-generator
 
 This is a server which can be used to generate OAuth2 tokens for
 Google services.  Tokens are stored in EDN files to be used by the

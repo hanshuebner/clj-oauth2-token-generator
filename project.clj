@@ -8,4 +8,4 @@
                  [compojure "1.3.3"]
                  [org.apache.httpcomponents/httpclient "4.3.5"]
                  [clj-http "1.1.0"]]
-  :main clojure-oauth-server.core)
+  :main clj-oauth2-token-generator.core)

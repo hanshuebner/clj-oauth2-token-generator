@@ -1,4 +1,4 @@
-(ns clojure-oauth-server.core
+(ns clj-oauth2-token-generator.core
   (:require [clojure.java.io :as io]
             [clojure.edn :as edn]
             [clojure.pprint :refer [pprint]]
